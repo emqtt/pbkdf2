@@ -6,7 +6,7 @@ A [PBKDF2](http://en.wikipedia.org/wiki/PBKDF2) implementation for [Erlang](http
 Building
 --------
 
-`erlang-pbkdf2` uses [rebar][] to manage the build process. To build the project, run:
+`erlang-pbkdf2` uses [rebar](https://github.com/rebar/rebar) to manage the build process. To build the project, run:
 
 	./rebar compile
 
@@ -17,9 +17,6 @@ You can then run the `xref` and `eunit` tests:
 If you want to remove all generated files, run:
 
 	./rebar clean
-
-[rebar]: https://github.com/rebar/rebar/wiki
-
 
 Usage
 -----
