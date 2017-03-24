@@ -1,19 +1,14 @@
-.PHONY: deps test
+all: compile
 
-all: deps compile
+get-deps:
+	./rebar get-deps
 
-compile: deps
+compile:
 	./rebar compile
 
-deps:
-	test -d deps || ./rebar get-deps
+eunit:
+	./rebar eunit
 
 clean:
 	./rebar clean
 
-distclean: clean
-	./rebar delete-deps
-
-DIALYZER_APPS = kernel stdlib erts sasl ssl crypto public_key
-
-include tools.mk

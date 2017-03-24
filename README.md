@@ -1,12 +1,7 @@
-erlang-pbkdf2
-=============
+pbkdf2
+======
 
-A [PBKDF2][] implementation for [Erlang][] extracted from [Apache CouchDB][].
-
-[PBKDF2]: http://en.wikipedia.org/wiki/PBKDF2
-[Erlang]: http://www.erlang.org
-[Apache CouchDB]: http://couchdb.apache.org
-
+A [PBKDF2](http://en.wikipedia.org/wiki/PBKDF2) implementation for [Erlang](http://www.erlang.org) extracted from [Apache CouchDB](http://couchdb.apache.org).
 
 Building
 --------
